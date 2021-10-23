@@ -1,5 +1,3 @@
-import Button from "react-bootstrap/Button";
-import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 
 class About extends React.Component {

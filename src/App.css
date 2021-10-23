@@ -2,16 +2,22 @@
   /* font-family: 'Montserrat', sans-serif;
    */
   font-family: "Roboto";
-  text-align: center;
+  /* text-align: center; */
+  background-color: #011627;
 }
 
+.color-nav{
+  background-color: #011627;
+}
 .coverName{
   text-align: left;
   font-size: 50px;
   font-weight: bold;
+  color: white;
 }
 
 .coverDescription{
   text-align: left;
   font-size: 25px;
+  color: #6c757d;
 }

@@ -1,5 +1,3 @@
-import Button from "react-bootstrap/Button";
-import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 
 class Cover extends React.Component {
@@ -18,9 +16,7 @@ class Cover extends React.Component {
                   <br />
                 </div>
                 <div class="coverDescription">
-                  <small class="text-muted">
                     Software Engineer and Webdeveloper
-                  </small>
                 </div>
               </h3>
             </div>
