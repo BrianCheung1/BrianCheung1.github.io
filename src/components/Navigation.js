@@ -1,18 +1,23 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../logo.svg";
+import resume from "../resume/Brian_Cheung_Resume.docx";
 
 class Navigation extends React.Component {
   render() {
     return (
-      <div>
-        <Navbar expand="md" variant="dark" fixed="top" className="color-nav">
+      <Container fluid>
+        <Navbar
+          expand="md"
+          variant="dark"
+          fixed="top"
+          style={{ backgroundColor: "#12171d" }}
+        >
           <Navbar.Brand href="#home">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
-              fill="currentColor"
+              fill="white"
               class="bi bi-linkedin"
               viewBox="0 0 16 16"
               style={{ marginLeft: "10px" }}
@@ -23,7 +28,7 @@ class Navigation extends React.Component {
               xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
-              fill="currentColor"
+              fill="white"
               class="bi bi-github"
               viewBox="0 0 16 16"
               style={{ marginLeft: "10px" }}
@@ -37,12 +42,16 @@ class Navigation extends React.Component {
             className="justify-content-end"
           >
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
-            <Nav.Link href="#link">Resume</Nav.Link>
-            <Nav.Link href="#link">Contacts</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link
+              href={resume}
+            >
+              Resume
+            </Nav.Link>
+            <Nav.Link href="#contacts">Contacts</Nav.Link>
           </Navbar.Collapse>
         </Navbar>
-      </div>
+      </Container>
     );
   }
 }
