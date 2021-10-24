@@ -7,6 +7,7 @@ import smallify from "../images/smallify.png";
 import discordbot from "../images/discordbot.png";
 import unitygame from "../images/UnityGame.png";
 import valorant from "../images/ValorantWebsiteScreen.png";
+import political from "../images/politicalatlas.png"
 
 export const languages = [
   {
@@ -71,7 +72,16 @@ export const projects = [
     tech: ["Nodejs", "React", "MongoDB", "Javascript", "CSS", "AntDesign"],
   },
   {
-    key: 2,
+      key: 2, 
+      image: political,
+      title: "Policital Altas",
+      description: "Created a website that analayzed the speeches of presidents and displayed their emotions throughout the speech",
+      link: "https://github.com/kkhan01/political-atlas",
+      link2: "https://kkhan01.github.io/political-atlas/",
+      tech: ["Nodejs", "React", "MaterialUI", "D3.js" , "Python"]
+  },
+  {
+    key: 3,
     image: discordbot,
     title: "Discord Bot",
     description:
@@ -81,7 +91,7 @@ export const projects = [
     tech: ["Python", "Discord API", "Coinbase API"],
   },
   {
-    key: 3,
+    key: 4,
     image: unitygame,
     title: "2D Unity Game",
     description:
@@ -91,7 +101,7 @@ export const projects = [
     tech: ["Unity", "C#", "Itch.io"],
   },
   {
-    key: 4,
+    key: 5,
     image: valorant,
     title: "Valorant Wiki",
     description:

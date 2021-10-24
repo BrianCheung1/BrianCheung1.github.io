@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap"
-import CoverPicture from "../images/CoverPicture.svg"
+import { Container, Row, Col } from "react-bootstrap";
+import CoverPicture from "../images/CoverPicture.svg";
 
 class Cover extends React.Component {
   render() {
@@ -10,7 +10,17 @@ class Cover extends React.Component {
           <Col lg={6}>
             <div className="coverName">Brian Cheung</div>
             <div className="coverDescription">
-              Software Engineer and Webdeveloper
+              <div className="flip">
+                <div>
+                  <div>Webdeveloper</div>
+                </div>
+                <div>
+                  <div>and</div>
+                </div>
+                <div>
+                  <div>Software Engineer</div>
+                </div>
+              </div>
             </div>
           </Col>
           <Col lg={6}>
