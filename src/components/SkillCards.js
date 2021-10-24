@@ -1,4 +1,4 @@
-import { Row, Col, Container, Image } from "react-bootstrap";
+import {Col,} from "react-bootstrap";
 
 function SkillCards({ name, icon }) {
   return (
