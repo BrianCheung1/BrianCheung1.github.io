@@ -12,13 +12,13 @@ class Cover extends React.Component {
             <div className="coverDescription">
               <div className="flip">
                 <div>
-                  <div>Webdeveloper</div>
-                </div>
-                <div>
-                  <div>and</div>
-                </div>
-                <div>
                   <div>Software Engineer</div>
+                </div>
+                <div>
+                  <div>Explorer</div>
+                </div>
+                <div>
+                  <div>Webdeveloper</div>
                 </div>
               </div>
             </div>
@@ -29,6 +29,7 @@ class Cover extends React.Component {
               alt="placeholder"
               width="100%"
               height="auto"
+              className="coverPhoto"
             ></img>
           </Col>
         </Row>

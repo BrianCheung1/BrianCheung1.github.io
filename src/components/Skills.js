@@ -27,7 +27,7 @@ class Skills extends React.Component {
             <div className="skills">Skills</div>
           </Col>
         </Row>
-        <Row className="skillButtons">
+        <Row style={{ textAlign: "center" }}>
           <Col span={12}>
             <Button
               variant="primary"
@@ -36,7 +36,8 @@ class Skills extends React.Component {
                   skills: true,
                 });
               }}
-              style={{marginRight:"10px"}}
+              style={{ marginRight: "10px" }}
+              className="skillButtons"
             >
               Languages
             </Button>
@@ -47,6 +48,7 @@ class Skills extends React.Component {
                   skills: false,
                 });
               }}
+              className="skillButtons"
             >
               Technologies
             </Button>

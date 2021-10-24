@@ -13,6 +13,7 @@ class About extends React.Component {
               width="100%"
               height="auto"
               alt="placeholder"
+              className="aboutPicture"
             ></img>
           </Col>
           <Col lg={6}>

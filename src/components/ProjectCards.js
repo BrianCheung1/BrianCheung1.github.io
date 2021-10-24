@@ -21,8 +21,9 @@ function ProjectCards({ image, title, description, link, link2, tech }) {
         border="dark"
         style={{
           width: "auto",
-          marginBottom: "10px",
+          marginBottom: "20px",
         }}
+        className="projectSlide"
       >
         <Card.Header className="cardTech">{getSkills({ tech })}</Card.Header>
         <Card.Img variant="top" src={image} />
