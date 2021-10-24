@@ -68,7 +68,7 @@ export const projects = [
       "Link shortener website called Smallify, which provided users with a permanent link to their destination URL almost instantly.",
     link: "https://github.com/jma8774/Shortener",
     link2: "https://www.smallify.xyz/",
-    tech: ["Node", "React", "MongoDB", "Javascript", "CSS"],
+    tech: ["Nodejs", "React", "MongoDB", "Javascript", "CSS", "AntDesign"],
   },
   {
     key: 2,
@@ -78,7 +78,7 @@ export const projects = [
       "Created a discord bot using discordpy that has a mulitude of commands ranging from games to checking crypto currency prices",
     link: "https://github.com/BrianCheung1/DiscordBotpy",
     link2: "",
-    tech: ["Node", "React", "MongoDB", "Javascript", "CSS"],
+    tech: ["Python", "Discord API", "Coinbase API"],
   },
   {
     key: 3,
@@ -88,7 +88,7 @@ export const projects = [
       "Created a game based on unity engine, experience how to control sprite movements and creating various obstacles",
     link: "https://github.com/BrianCheung1/TopDownUnityGame",
     link2: "https://briancheung.itch.io/topdown",
-    tech: ["Node", "React", "MongoDB", "Javascript", "CSS"],
+    tech: ["Unity", "C#", "Itch.io"],
   },
   {
     key: 4,
@@ -98,6 +98,6 @@ export const projects = [
       "Created a website that allows the user to view through different valorant maps, agents, and guns and view their info",
     link: "https://github.com/BrianCheung1/ValorantMaps",
     link2: "https://briancheung1.github.io/ValorantMaps/",
-    tech: ["Node", "React", "MongoDB", "Javascript", "CSS"],
+    tech: ["HTML", "Bootstrap", "CSS"],
   },
 ];
