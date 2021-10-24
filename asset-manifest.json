@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/BrianCheung1/PersonalWebsite/static/css/main.ce367ae1.chunk.css",
-    "main.js": "/BrianCheung1/PersonalWebsite/static/js/main.ea88f9d7.chunk.js",
-    "main.js.map": "/BrianCheung1/PersonalWebsite/static/js/main.ea88f9d7.chunk.js.map",
-    "runtime-main.js": "/BrianCheung1/PersonalWebsite/static/js/runtime-main.298e7909.js",
-    "runtime-main.js.map": "/BrianCheung1/PersonalWebsite/static/js/runtime-main.298e7909.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/BrianCheung1/PersonalWebsite/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.5e7c7966.chunk.js": "/BrianCheung1/PersonalWebsite/static/js/2.5e7c7966.chunk.js",
-    "static/js/2.5e7c7966.chunk.js.map": "/BrianCheung1/PersonalWebsite/static/js/2.5e7c7966.chunk.js.map",
-    "static/js/3.f6000d14.chunk.js": "/BrianCheung1/PersonalWebsite/static/js/3.f6000d14.chunk.js",
-    "static/js/3.f6000d14.chunk.js.map": "/BrianCheung1/PersonalWebsite/static/js/3.f6000d14.chunk.js.map",
-    "index.html": "/BrianCheung1/PersonalWebsite/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/BrianCheung1/PersonalWebsite/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.ce367ae1.chunk.css.map": "/BrianCheung1/PersonalWebsite/static/css/main.ce367ae1.chunk.css.map",
-    "static/js/2.5e7c7966.chunk.js.LICENSE.txt": "/BrianCheung1/PersonalWebsite/static/js/2.5e7c7966.chunk.js.LICENSE.txt",
-    "static/media/Brian_Cheung_Resume.360f0ed2.docx": "/BrianCheung1/PersonalWebsite/static/media/Brian_Cheung_Resume.360f0ed2.docx",
-    "static/media/UnityGame.028507ce.png": "/BrianCheung1/PersonalWebsite/static/media/UnityGame.028507ce.png",
-    "static/media/ValorantWebsiteScreen.cb1d8694.png": "/BrianCheung1/PersonalWebsite/static/media/ValorantWebsiteScreen.cb1d8694.png",
-    "static/media/discordbot.3b068c20.png": "/BrianCheung1/PersonalWebsite/static/media/discordbot.3b068c20.png",
-    "static/media/smallify.538eedf3.png": "/BrianCheung1/PersonalWebsite/static/media/smallify.538eedf3.png"
+    "main.css": "/BrianCheung1/static/css/main.ce367ae1.chunk.css",
+    "main.js": "/BrianCheung1/static/js/main.02e5211e.chunk.js",
+    "main.js.map": "/BrianCheung1/static/js/main.02e5211e.chunk.js.map",
+    "runtime-main.js": "/BrianCheung1/static/js/runtime-main.0aac7f8a.js",
+    "runtime-main.js.map": "/BrianCheung1/static/js/runtime-main.0aac7f8a.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/BrianCheung1/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.188f5b06.chunk.js": "/BrianCheung1/static/js/2.188f5b06.chunk.js",
+    "static/js/2.188f5b06.chunk.js.map": "/BrianCheung1/static/js/2.188f5b06.chunk.js.map",
+    "static/js/3.7b8bff4e.chunk.js": "/BrianCheung1/static/js/3.7b8bff4e.chunk.js",
+    "static/js/3.7b8bff4e.chunk.js.map": "/BrianCheung1/static/js/3.7b8bff4e.chunk.js.map",
+    "index.html": "/BrianCheung1/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/BrianCheung1/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.ce367ae1.chunk.css.map": "/BrianCheung1/static/css/main.ce367ae1.chunk.css.map",
+    "static/js/2.188f5b06.chunk.js.LICENSE.txt": "/BrianCheung1/static/js/2.188f5b06.chunk.js.LICENSE.txt",
+    "static/media/Brian_Cheung_Resume.360f0ed2.docx": "/BrianCheung1/static/media/Brian_Cheung_Resume.360f0ed2.docx",
+    "static/media/UnityGame.028507ce.png": "/BrianCheung1/static/media/UnityGame.028507ce.png",
+    "static/media/ValorantWebsiteScreen.cb1d8694.png": "/BrianCheung1/static/media/ValorantWebsiteScreen.cb1d8694.png",
+    "static/media/discordbot.3b068c20.png": "/BrianCheung1/static/media/discordbot.3b068c20.png",
+    "static/media/smallify.538eedf3.png": "/BrianCheung1/static/media/smallify.538eedf3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.298e7909.js",
+    "static/js/runtime-main.0aac7f8a.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.5e7c7966.chunk.js",
+    "static/js/2.188f5b06.chunk.js",
     "static/css/main.ce367ae1.chunk.css",
-    "static/js/main.ea88f9d7.chunk.js"
+    "static/js/main.02e5211e.chunk.js"
   ]
 }
