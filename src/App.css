@@ -57,12 +57,17 @@
   align-items: center;
 }
 
-.projectCardsBody{
+.projectCardsBody {
   text-align: center;
 }
 
-.contacts{
+.contacts {
   text-align: center;
   font-size: 50px;
   justify-content: center;
+}
+
+.cardTech {
+  text-align: center;
+  font-size: 20px;
 }
