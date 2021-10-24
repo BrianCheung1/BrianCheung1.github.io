@@ -17,6 +17,7 @@ html {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .coverName {

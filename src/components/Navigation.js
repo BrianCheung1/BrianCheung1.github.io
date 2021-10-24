@@ -10,7 +10,7 @@ class Navigation extends React.Component {
           expand="md"
           variant="dark"
           fixed="top"
-          style={{ backgroundColor: "#12171d" }}
+          style={{ backgroundColor: "#12171d"}}
         >
           <Navbar.Brand href="https://github.com/BrianCheung1" target="_blank">
             <svg
