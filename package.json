@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/BrianCheung1/PersonalWebsite",
-  "name": "website",
+  "homepage": "https://github.com/BrianCheung1/",
+  "name": "personalwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
