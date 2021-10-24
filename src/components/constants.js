@@ -1,12 +1,12 @@
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
 import { IoLogoReact } from "react-icons/io5";
 import { FaPython } from "react-icons/fa";
-import { SiCplusplus, SiMongodb, SiBootstrap } from "react-icons/si";
+import { SiCplusplus, SiMongodb, SiBootstrap, SiCsharp } from "react-icons/si";
 import { ImGit } from "react-icons/im";
 import smallify from "../images/smallify.png";
 import discordbot from "../images/discordbot.png";
-import unitygame from "../images/UnityGame.png"
-import valorant from "../images/ValorantWebsiteScreen.png"
+import unitygame from "../images/UnityGame.png";
+import valorant from "../images/ValorantWebsiteScreen.png";
 
 export const languages = [
   {
@@ -23,6 +23,11 @@ export const languages = [
     key: 3,
     icon: <FaPython></FaPython>,
     name: "Python",
+  },
+  {
+    key: 4,
+    icon: <SiCsharp></SiCsharp>,
+    name: "C#",
   },
 ];
 
@@ -71,6 +76,7 @@ export const projects = [
     description:
       "Created a discord bot using discordpy that has a mulitude of commands ranging from games to checking crypto currency prices",
     link: "https://github.com/BrianCheung1/DiscordBotpy",
+    link2: "",
   },
   {
     key: 3,
