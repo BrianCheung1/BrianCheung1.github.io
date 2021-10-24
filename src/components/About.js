@@ -1,12 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CoverPicture2 from "../images/CoverPicture2.svg";
+import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 
 class About extends React.Component {
   render() {
     return (
-      <Container fluid style={{ paddingTop: "100px", paddingBottom: "100px" }}>
-        <Row className="cover">
+      <Container fluid>
+        <Row className="aboutAll">
           <Col lg={6}>
             <img
               src={CoverPicture2}
@@ -19,12 +20,12 @@ class About extends React.Component {
           <Col lg={6}>
             <div className="about">About me</div>
             <div className="aboutDescription">
-              Hello, I recent graduated from Hunter college as a with computer
-              science degree. I enjoy working on applicaitons and website
-              developement as well as exploring new ideas to work on. My goal is
-              create applications that people enjoy and want to use on a daily
-              basis. I want people to find my programs efficient and helpful to
-              their daily lifesytles.
+              Hello, I recent graduated from Hunter college with comp sci
+              degree. I enjoy working on applications and website development. I
+              am exploring new ideas to challenge myself. My goal is create
+              applications that people enjoy and want to use on a daily basis. I
+              want people to find my programs efficient and helpful to their
+              daily lifesytles.
             </div>
           </Col>
         </Row>

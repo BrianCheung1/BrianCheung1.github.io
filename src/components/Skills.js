@@ -21,8 +21,8 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <Container fluid style={{ paddingTop: "100px", paddingBottom: "100px" }}>
-        <Row className="cover" id="skills">
+      <Container fluid className="skillsAll">
+        <Row id="skills">
           <Col span={10}>
             <div className="skills">Skills</div>
           </Col>

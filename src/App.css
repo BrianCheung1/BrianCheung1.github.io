@@ -17,7 +17,8 @@ html {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 600px;
+  padding-top: 200px;
 }
 
 .coverName {
@@ -43,21 +44,31 @@ html {
 .about {
   font-size: 50px;
   text-align: center;
-  animation: slideinRight 3s;
+  animation: slideUp 3s;
+}
+
+.aboutAll {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 400px;
 }
 
 .aboutDescription {
   font-size: 20px;
-  animation: slideinRight 3s;
+  animation: slideUp 3s;
 }
 
 .aboutPicture{
-  animation: slideinLeft 3s;
+  animation: slideUp 3s;
 }
 
 .skills {
   font-size: 50px;
   text-align: center;
+}
+.skillsAll{
+  margin-bottom: 400px;
 }
 
 .skillButtons {
@@ -114,41 +125,6 @@ html {
   overflow: hidden;
 }
 
-@keyframes slideinLeft {
-  0% {
-    transform: translate(-200px, 0px);
-    opacity: 0;
-  }
-
-  50% {
-    transform: translate(50px, 0px);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translate(0px, 0px);
-    opacity: 1;
-  }
-}
-
-@keyframes slideinRight {
-  0% {
-    transform: translate(200px, 0px);
-    opacity: 0;
-  }
-
-  50% {
-    transform: translate(-50px, 0px);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translate(0px, 0px);
-    opacity: 1;
-  }
-}
-
-
 .contacts {
   text-align: center;
   font-size: 50px;
@@ -184,7 +160,51 @@ html {
   animation-delay: 3.5s;
 }
 
+@keyframes slideinLeft {
+  0% {
+    transform: translate(-200px, 0px);
+    opacity: 0;
+  }
 
+  50% {
+    transform: translate(50px, 0px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideinRight {
+  0% {
+    transform: translate(200px, 0px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(-50px, 0px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translate(0px, 200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
 
 @keyframes show {
   0% {

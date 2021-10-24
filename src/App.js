@@ -8,6 +8,7 @@ import Contacts from "./components/Contacts";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
+import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 
 function App() {
   return (
@@ -15,8 +16,12 @@ function App() {
       <Navigation />
       <Container fluid>
         <Cover />
-        <About />
-        <Skills />
+        <Zoom>
+          <About />
+        </Zoom>
+        <Zoom>
+          <Skills />
+        </Zoom>
         <Projects />
         <Contacts />
       </Container>

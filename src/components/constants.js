@@ -72,20 +72,21 @@ export const projects = [
     tech: ["Nodejs", "React", "MongoDB", "Javascript", "CSS", "AntDesign"],
   },
   {
-      key: 2, 
-      image: political,
-      title: "Policital Altas",
-      description: "Created a website that analayzed the speeches of presidents and displayed their emotions throughout the speech",
-      link: "https://github.com/kkhan01/political-atlas",
-      link2: "https://kkhan01.github.io/political-atlas/",
-      tech: ["Nodejs", "React", "MaterialUI", "D3.js" , "Python"]
+    key: 2,
+    image: political,
+    title: "Political Atlas",
+    description:
+      "A website that analayzed the speeches of presidents and displayed their emotions throughout the speech",
+    link: "https://github.com/kkhan01/political-atlas",
+    link2: "https://kkhan01.github.io/political-atlas/",
+    tech: ["Nodejs", "React", "MaterialUI", "D3.js", "Python"],
   },
   {
     key: 3,
     image: discordbot,
     title: "Discord Bot",
     description:
-      "Created a discord bot using discordpy that has a mulitude of commands ranging from games to checking crypto currency prices",
+      "A discord bot using discordpy that has a mulitude of commands ranging from games to checking crypto currency prices",
     link: "https://github.com/BrianCheung1/DiscordBotpy",
     link2: "",
     tech: ["Python", "Discord API", "Coinbase API"],
@@ -95,7 +96,7 @@ export const projects = [
     image: unitygame,
     title: "2D Unity Game",
     description:
-      "Created a game based on unity engine, experience how to control sprite movements and creating various obstacles",
+      "A game based on unity engine, experience how to control sprite movements and creating various obstacles",
     link: "https://github.com/BrianCheung1/TopDownUnityGame",
     link2: "https://briancheung.itch.io/topdown",
     tech: ["Unity", "C#", "Itch.io"],
@@ -105,7 +106,7 @@ export const projects = [
     image: valorant,
     title: "Valorant Wiki",
     description:
-      "Created a website that allows the user to view through different valorant maps, agents, and guns and view their info",
+      "A website that allows the user to view through different valorant maps, agents, and guns and view their info",
     link: "https://github.com/BrianCheung1/ValorantMaps",
     link2: "https://briancheung1.github.io/ValorantMaps/",
     tech: ["HTML", "Bootstrap", "CSS"],

@@ -5,7 +5,7 @@ import CoverPicture from "../images/CoverPicture.svg";
 class Cover extends React.Component {
   render() {
     return (
-      <Container fluid style={{ paddingTop: "200px", paddingBottom: "100px" }}>
+      <Container fluid>
         <Row className="cover" id="home">
           <Col lg={6}>
             <div className="coverName">Brian Cheung</div>
