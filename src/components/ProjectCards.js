@@ -1,9 +1,4 @@
-import {
-  Col,
-  Card,
-  Button,
-  Badge,
-} from "react-bootstrap";
+import { Col, Card, Button, Badge } from "react-bootstrap";
 import { AiOutlineGithub } from "react-icons/ai";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 
@@ -21,7 +16,14 @@ function ProjectCards({ image, title, description, link, link2, tech }) {
   };
   return (
     <Col lg={8}>
-      <Card bg="dark" style={{ width: "auto", marginBottom: "10px" }}>
+      <Card
+        bg="dark"
+        border="dark"
+        style={{
+          width: "auto",
+          marginBottom: "10px",
+        }}
+      >
         <Card.Header className="cardTech">{getSkills({ tech })}</Card.Header>
         <Card.Img variant="top" src={image} />
         <Card.Body className="projectCardsBody">

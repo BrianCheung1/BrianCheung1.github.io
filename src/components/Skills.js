@@ -36,6 +36,7 @@ class Skills extends React.Component {
                   skills: true,
                 });
               }}
+              style={{marginRight:"10px"}}
             >
               Languages
             </Button>

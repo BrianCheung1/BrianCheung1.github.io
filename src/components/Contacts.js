@@ -28,20 +28,20 @@ class Contacts extends React.Component {
               size="lg"
               href="https://www.linkedin.com/in/brian-cheung-a82a191a3/"
               target="_blank"
+              className="contactButtons"
+              style={{ marginRight: "10px" }}
             >
               <AiFillLinkedin></AiFillLinkedin>
             </Button>
-          </Col>
-          <Col>
             <Button
               size="lg"
               href="https://github.com/BrianCheung1"
               target="_blank"
+              className="contactButtons"
+              style={{ marginRight: "10px" }}
             >
               <AiOutlineGithub></AiOutlineGithub>
             </Button>
-          </Col>
-          <Col>
             <Button
               size="lg"
               onClick={() => {
@@ -52,6 +52,7 @@ class Contacts extends React.Component {
                   showA: true,
                 });
               }}
+              className="contactButtons"
             >
               <AiFillMail></AiFillMail>
             </Button>
