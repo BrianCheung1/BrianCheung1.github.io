@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.ce367ae1.chunk.css",
-    "main.js": "/PersonalWebsite/static/js/main.02e5211e.chunk.js",
-    "main.js.map": "/PersonalWebsite/static/js/main.02e5211e.chunk.js.map",
+    "main.js": "/PersonalWebsite/static/js/main.6954e90d.chunk.js",
+    "main.js.map": "/PersonalWebsite/static/js/main.6954e90d.chunk.js.map",
     "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.2f5cd6c9.js",
     "runtime-main.js.map": "/PersonalWebsite/static/js/runtime-main.2f5cd6c9.js.map",
     "static/css/2.0a9ec390.chunk.css": "/PersonalWebsite/static/css/2.0a9ec390.chunk.css",
@@ -15,6 +15,8 @@
     "static/css/main.ce367ae1.chunk.css.map": "/PersonalWebsite/static/css/main.ce367ae1.chunk.css.map",
     "static/js/2.188f5b06.chunk.js.LICENSE.txt": "/PersonalWebsite/static/js/2.188f5b06.chunk.js.LICENSE.txt",
     "static/media/Brian_Cheung_Resume.360f0ed2.docx": "/PersonalWebsite/static/media/Brian_Cheung_Resume.360f0ed2.docx",
+    "static/media/CoverPicture.a848b0c4.svg": "/PersonalWebsite/static/media/CoverPicture.a848b0c4.svg",
+    "static/media/CoverPicture2.547de77a.svg": "/PersonalWebsite/static/media/CoverPicture2.547de77a.svg",
     "static/media/UnityGame.028507ce.png": "/PersonalWebsite/static/media/UnityGame.028507ce.png",
     "static/media/ValorantWebsiteScreen.cb1d8694.png": "/PersonalWebsite/static/media/ValorantWebsiteScreen.cb1d8694.png",
     "static/media/discordbot.3b068c20.png": "/PersonalWebsite/static/media/discordbot.3b068c20.png",
@@ -25,6 +27,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.188f5b06.chunk.js",
     "static/css/main.ce367ae1.chunk.css",
-    "static/js/main.02e5211e.chunk.js"
+    "static/js/main.6954e90d.chunk.js"
   ]
 }
