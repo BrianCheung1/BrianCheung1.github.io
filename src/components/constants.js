@@ -86,7 +86,7 @@ export const projects = [
     image: discordbot,
     title: "Discord Bot",
     description:
-      "A discord bot using discordpy that has a multitude of commands ranging from games to checking crypto currency prices",
+      "A discord bot using Discordpy that has a multitude of commands ranging from games to checking cryptocurrency prices",
     link: "https://github.com/BrianCheung1/DiscordBotpy",
     link2: "",
     tech: ["Python", "Discord API", "Coinbase API"],
@@ -106,7 +106,7 @@ export const projects = [
     image: valorant,
     title: "Valorant Wiki",
     description:
-      "A website that allows the user to view through different valorant maps, agents, and guns as well as view their info",
+      "A website that allows the user to view through different Valorant maps, agents, and guns as well as view their info",
     link: "https://github.com/BrianCheung1/ValorantMaps",
     link2: "https://briancheung1.github.io/ValorantMaps/",
     tech: ["HTML", "Bootstrap", "CSS"],

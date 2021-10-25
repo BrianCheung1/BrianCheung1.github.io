@@ -15,10 +15,10 @@ class Cover extends React.Component {
                   <div>Software Engineer</div>
                 </div>
                 <div>
-                  <div>Explorer</div>
+                  <div>Webdev</div>
                 </div>
                 <div>
-                  <div>Webdeveloper</div>
+                  <div>Developer</div>
                 </div>
               </div>
             </div>

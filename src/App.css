@@ -1,10 +1,6 @@
 .App {
   font-weight: 400;
-  font-family: Montserrat,
-    "Open Sans",
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-family: Lato;
   background-color: #12171d;
   color: white;
   overflow: hidden;

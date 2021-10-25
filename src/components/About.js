@@ -19,12 +19,12 @@ class About extends React.Component {
           <Col lg={6}>
             <div className="about">About me</div>
             <div className="aboutDescription">
-              Hello, I recent graduated from Hunter college with computer
+              Hello, I recently graduated from Hunter College with a computer
               science degree. I enjoy working on applications and website
               development. I am exploring new ideas to challenge myself. My goal
-              is create applications that people enjoy and want to use on a
-              daily basis. I want people to find my programs efficient and
-              helpful to their daily lifesytles.
+              is to create applications that people enjoy and want to use daily.
+              I want people to find my programs efficient and helpful to their
+              daily lifestyles.
             </div>
           </Col>
         </Row>
