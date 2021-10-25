@@ -13,13 +13,17 @@ class Projects extends React.Component {
   };
   render() {
     return (
-      <Container fluid style={{ paddingTop: "100px", paddingBottom: "100px" }} id="projects">
-        <Row className="projects">
-          <Col>Latest Works</Col>
-        </Row>
-        <Row className="projectCards" lg={8}>
+      <Container
+        fluid
+        style={{ paddingTop: "100px", paddingBottom: "100px" }}
+        id="projects"
+      >
+          <Row className="projects">
+            <Col>Latest Works</Col>
+          </Row>
+          <Row className="projectCards" lg={8}>
             {this.displayList(projects)}
-        </Row>
+          </Row>
       </Container>
     );
   }

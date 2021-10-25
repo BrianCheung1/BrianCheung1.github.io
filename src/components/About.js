@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CoverPicture2 from "../images/CoverPicture2.svg";
-import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
 
 class About extends React.Component {
   render() {
@@ -20,12 +19,12 @@ class About extends React.Component {
           <Col lg={6}>
             <div className="about">About me</div>
             <div className="aboutDescription">
-              Hello, I recent graduated from Hunter college with comp sci
-              degree. I enjoy working on applications and website development. I
-              am exploring new ideas to challenge myself. My goal is create
-              applications that people enjoy and want to use on a daily basis. I
-              want people to find my programs efficient and helpful to their
-              daily lifesytles.
+              Hello, I recent graduated from Hunter college with computer
+              science degree. I enjoy working on applications and website
+              development. I am exploring new ideas to challenge myself. My goal
+              is create applications that people enjoy and want to use on a
+              daily basis. I want people to find my programs efficient and
+              helpful to their daily lifesytles.
             </div>
           </Col>
         </Row>

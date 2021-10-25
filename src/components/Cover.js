@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CoverPicture from "../images/CoverPicture.svg";
+import Particles from "react-particles-js";
 
 class Cover extends React.Component {
   render() {

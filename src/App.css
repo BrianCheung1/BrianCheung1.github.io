@@ -7,10 +7,22 @@
     sans-serif;
   background-color: #12171d;
   color: white;
+  overflow: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+
+}
+
+#tsparticles {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
 }
 
 .cover {
@@ -26,7 +38,7 @@ html {
   text-align: center;
   animation: slideinLeft 3s;
   margin-bottom: 10px;
-  
+
 }
 
 .coverDescription {
@@ -36,7 +48,7 @@ html {
 
 }
 
-.coverPhoto{
+.coverPhoto {
   animation: slideinRight 3s;
 
 }
@@ -44,7 +56,6 @@ html {
 .about {
   font-size: 50px;
   text-align: center;
-  animation: slideUp 3s;
 }
 
 .aboutAll {
@@ -56,19 +67,17 @@ html {
 
 .aboutDescription {
   font-size: 20px;
-  animation: slideUp 3s;
 }
 
-.aboutPicture{
-  animation: slideUp 3s;
-}
 
 .skills {
   font-size: 50px;
   text-align: center;
 }
-.skillsAll{
+
+.skillsAll {
   margin-bottom: 400px;
+  overflow: hidden;
 }
 
 .skillButtons {

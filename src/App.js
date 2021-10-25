@@ -9,16 +9,21 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
+import Fade from "react-reveal/Fade";
+import Particles from "react-particles-js";
+import particlesOptions from "./components/Particles.json";
+
 
 function App() {
   return (
     <div class="App">
       <Navigation />
       <Container fluid>
+        <Particles params={particlesOptions} />
         <Cover />
-        <Zoom>
+        <Fade bottom>
           <About />
-        </Zoom>
+        </Fade>
         <Zoom>
           <Skills />
         </Zoom>

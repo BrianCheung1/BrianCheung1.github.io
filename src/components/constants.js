@@ -7,7 +7,7 @@ import smallify from "../images/smallify.png";
 import discordbot from "../images/discordbot.png";
 import unitygame from "../images/UnityGame.png";
 import valorant from "../images/ValorantWebsiteScreen.png";
-import political from "../images/politicalatlas.png"
+import political from "../images/politicalatlas.png";
 
 export const languages = [
   {
@@ -76,7 +76,7 @@ export const projects = [
     image: political,
     title: "Political Atlas",
     description:
-      "A website that analayzed the speeches of presidents and displayed their emotions throughout the speech",
+      "A website that analyzed the speeches of presidents and displayed their emotions throughout the speech",
     link: "https://github.com/kkhan01/political-atlas",
     link2: "https://kkhan01.github.io/political-atlas/",
     tech: ["Nodejs", "React", "MaterialUI", "D3.js", "Python"],
@@ -86,7 +86,7 @@ export const projects = [
     image: discordbot,
     title: "Discord Bot",
     description:
-      "A discord bot using discordpy that has a mulitude of commands ranging from games to checking crypto currency prices",
+      "A discord bot using discordpy that has a multitude of commands ranging from games to checking crypto currency prices",
     link: "https://github.com/BrianCheung1/DiscordBotpy",
     link2: "",
     tech: ["Python", "Discord API", "Coinbase API"],
@@ -106,7 +106,7 @@ export const projects = [
     image: valorant,
     title: "Valorant Wiki",
     description:
-      "A website that allows the user to view through different valorant maps, agents, and guns and view their info",
+      "A website that allows the user to view through different valorant maps, agents, and guns as well as view their info",
     link: "https://github.com/BrianCheung1/ValorantMaps",
     link2: "https://briancheung1.github.io/ValorantMaps/",
     tech: ["HTML", "Bootstrap", "CSS"],

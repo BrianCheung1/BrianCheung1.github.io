@@ -45,7 +45,7 @@ class Contacts extends React.Component {
         style={{ paddingTop: "100px", paddingBottom: "100px" }}
         id="contacts"
       >
-        <Row className="contacts" md={6}>
+        <Row className="contacts" lg={6}>
           <Col>
             <OverlayTrigger
               placement="top"
