@@ -13,7 +13,6 @@ import Fade from "react-reveal/Fade";
 import Particles from "react-particles-js";
 import particlesOptions from "./components/Particles.json";
 
-
 function App() {
   return (
     <div class="App">
@@ -28,7 +27,9 @@ function App() {
           <Skills />
         </Zoom>
         <Projects />
-        <Contacts />
+        <Zoom>
+          <Contacts />
+        </Zoom>
       </Container>
     </div>
   );

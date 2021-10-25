@@ -42,7 +42,6 @@ class Contacts extends React.Component {
     return (
       <Container
         fluid
-        style={{ paddingTop: "100px", paddingBottom: "100px" }}
         id="contacts"
       >
         <Row className="contacts" lg={6}>
