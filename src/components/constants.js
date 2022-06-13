@@ -66,7 +66,7 @@ export const projects = [
     image: smallify,
     title: "Smallify",
     description:
-      "Link shortener website called Smallify, which provided users with a permanent link to their destination URL almost instantly.",
+      "Link shortener which provided users with a permanent link to their destination URL almost instantly.",
     link: "https://github.com/jma8774/Shortener",
     link2: "https://url-shortener-fun.herokuapp.com/",
     tech: ["Nodejs", "React", "MongoDB", "Javascript", "CSS", "AntDesign"],
