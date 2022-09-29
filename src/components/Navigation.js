@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import resume from "../resume/Brian_Cheung_Resume.docx";
+import resume from "../resume/BRIAN_CHEUNG_Resume.pdf";
 
 class Navigation extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class Navigation extends React.Component {
           expand="md"
           variant="dark"
           fixed="top"
-          style={{ backgroundColor: "#12171d"}}
+          style={{ backgroundColor: "#12171d" }}
         >
           <Navbar.Brand href="https://github.com/BrianCheung1" target="_blank">
             <svg
