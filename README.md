@@ -4,7 +4,7 @@
 
 ## Features
 
-Built with react and bootstrap. Was a fun project to showcase my projects and also learn how to build a website using react. Repsonive design with bootstrap allowing a great view expierence on all devices
+Built with react and bootstrap. Was a fun project to showcase my projects and also learn how to build a website using react. Responsive design with bootstrap allowing a great view experience on all devices
 
 CSS animations that provide a better viewing experience on site
 
