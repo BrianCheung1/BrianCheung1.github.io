@@ -1,13 +1,14 @@
-import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
-import { IoLogoReact } from "react-icons/io5";
-import { FaPython } from "react-icons/fa";
-import { SiCplusplus, SiMongodb, SiBootstrap, SiCsharp } from "react-icons/si";
-import { ImGit } from "react-icons/im";
-import smallify from "../images/smallify.png";
-import discordbot from "../images/discordbot.png";
-import unitygame from "../images/UnityGame.png";
-import valorant from "../images/ValorantWebsiteScreen.png";
-import political from "../images/politicalatlas.png";
+import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io"
+import { IoLogoReact } from "react-icons/io5"
+import { FaPython } from "react-icons/fa"
+import { SiCplusplus, SiMongodb, SiBootstrap, SiCsharp } from "react-icons/si"
+import { ImGit } from "react-icons/im"
+import smallify from "../images/smallify.png"
+import discordbot from "../images/discordbot.png"
+import unitygame from "../images/UnityGame.png"
+import valorant from "../images/ValorantWebsiteScreen.png"
+import political from "../images/politicalatlas.png"
+import jesflix from "../images/jesflix.png"
 
 export const languages = [
   {
@@ -30,7 +31,7 @@ export const languages = [
     icon: <SiCsharp></SiCsharp>,
     name: "C#",
   },
-];
+]
 
 export const technologies = [
   {
@@ -58,9 +59,27 @@ export const technologies = [
     icon: <SiBootstrap></SiBootstrap>,
     name: "Bootstrap",
   },
-];
+]
 
 export const projects = [
+  {
+    key: 0,
+    image: jesflix,
+    title: "Jesflix",
+    description:
+      "Streaming website which allows users to favorite and save movies/tv shows",
+    link: "https://github.com/BrianCheung1/jesflix",
+    link2: "https://jesflix.vercel.app/",
+    tech: [
+      "Nodejs",
+      "Prisma",
+      "MongoDB",
+      "Typescript",
+      "Nextjs",
+      "Tailwind",
+      "Vercel",
+    ],
+  },
   {
     key: 1,
     image: smallify,
@@ -68,7 +87,7 @@ export const projects = [
     description:
       "Link shortener which provided users with a permanent link to their destination URL almost instantly.",
     link: "https://github.com/jma8774/Shortener",
-    link2: "https://url-shortener-fun.herokuapp.com/",
+    link2: "",
     tech: ["Nodejs", "React", "MongoDB", "Javascript", "CSS", "AntDesign"],
   },
   {
@@ -78,7 +97,7 @@ export const projects = [
     description:
       "A website that analyzed the speeches of presidents and displayed their emotions throughout the speech",
     link: "https://github.com/kkhan01/political-atlas",
-    link2: "https://kkhan01.github.io/political-atlas/",
+    link2: "",
     tech: ["Nodejs", "React", "MaterialUI", "D3.js", "Python"],
   },
   {
@@ -101,14 +120,4 @@ export const projects = [
     link2: "https://briancheung.itch.io/topdown",
     tech: ["Unity", "C#", "Itch.io"],
   },
-  {
-    key: 5,
-    image: valorant,
-    title: "Valorant Wiki",
-    description:
-      "A website that allows the user to view through different Valorant maps, agents, and guns as well as view their info",
-    link: "https://github.com/BrianCheung1/ValorantMaps",
-    link2: "https://briancheung1.github.io/ValorantMaps/",
-    tech: ["HTML", "Bootstrap", "CSS"],
-  },
-];
+]
