@@ -92,8 +92,9 @@ body {
 }
 
 .aboutDescription {
-  
+  font-size: 18px;
   padding: 0px 5vw 5vw 5vw; /* Use viewport width for padding as well */
+  min-width: 300px;
 }
 
 .skills {
