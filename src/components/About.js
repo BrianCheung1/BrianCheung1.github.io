@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import CoverPicture2 from "../images/CoverPicture2.svg";
+import React from "react"
+import { Container, Row, Col } from "react-bootstrap"
+import CoverPicture2 from "../images/CoverPicture2.svg"
 
 class About extends React.Component {
   render() {
@@ -19,17 +19,17 @@ class About extends React.Component {
           <Col lg={6}>
             <div className="about">About me</div>
             <div className="aboutDescription">
-              Hello, I recently graduated from Hunter College with a computer
-              science degree. I enjoy working on applications and website
-              development. I am exploring new ideas to challenge myself. My goal
-              is to create applications that people enjoy and want to use daily.
-              I want people to find my programs efficient and helpful to their
-              daily lifestyles.
+              My passion lies in creating applications and developing websites
+              that people love using every day. I’m constantly exploring new
+              ideas to challenge myself and grow as a developer. My goal is to
+              build programs that are not only efficient and reliable but also
+              enhance users' daily lives, making their experiences more
+              streamlined and enjoyable.
             </div>
           </Col>
         </Row>
       </Container>
-    );
+    )
   }
 }
-export default About;
+export default About

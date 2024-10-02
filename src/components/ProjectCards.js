@@ -1,27 +1,35 @@
-import { Col, Card, Button, Badge } from "react-bootstrap";
-import { AiOutlineGithub } from "react-icons/ai";
-import { BsBoxArrowInUpRight } from "react-icons/bs";
+import { Col, Card, Button, Badge } from "react-bootstrap"
+import { AiOutlineGithub } from "react-icons/ai"
+import { BsBoxArrowInUpRight } from "react-icons/bs"
 
 function ProjectCards({ image, title, description, link, link2, tech }) {
   const getSkills = ({ tech }) => {
-    let all = [];
+    let all = []
     for (let skill in tech) {
       all.push(
-        <Badge bg="success" style={{ marginRight: "10px" }}>
+        <Badge
+          bg=""
+          style={{
+            marginRight: "10px",
+            backgroundColor: "#b8ca88",
+            color: "#000",
+          }}
+        >
           {tech[skill]}
         </Badge>
-      );
+      )
     }
-    return all;
-  };
+    return all
+  }
   return (
     <Col lg={8}>
       <Card
-        bg="dark"
+        bg=""
         border="dark"
         style={{
           width: "auto",
           marginBottom: "20px",
+          backgroundColor: "#282828",
         }}
         className="projectSlide"
       >
@@ -30,7 +38,18 @@ function ProjectCards({ image, title, description, link, link2, tech }) {
         <Card.Body className="projectCardsBody">
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
-          <Button variant="primary" href={link} target="_blank">
+          <Button
+            variant="primary"
+            href={link}
+            target="_blank"
+            style={{
+              marginLeft: "10px",
+              backgroundColor: "#b8ca88",
+              outline: "none",
+              border: "0",
+              color: "#000",
+            }}
+          >
             <AiOutlineGithub></AiOutlineGithub>
           </Button>
           {link2 !== "" ? (
@@ -38,7 +57,13 @@ function ProjectCards({ image, title, description, link, link2, tech }) {
               variant="primary"
               href={link2}
               target="_blank"
-              style={{ marginLeft: "10px" }}
+              style={{
+                marginLeft: "10px",
+                backgroundColor: "#b8ca88",
+                outline: "none",
+                border: "0",
+                color: "#000",
+              }}
             >
               <BsBoxArrowInUpRight></BsBoxArrowInUpRight>
             </Button>
@@ -48,6 +73,6 @@ function ProjectCards({ image, title, description, link, link2, tech }) {
         </Card.Body>
       </Card>
     </Col>
-  );
+  )
 }
-export { ProjectCards };
+export { ProjectCards }

@@ -1,23 +1,23 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import { languages, technologies } from "./constants";
-import { SkillCards } from "./SkillCards";
+import React from "react"
+import { Container, Row, Col, Button } from "react-bootstrap"
+import { languages, technologies } from "./constants"
+import { SkillCards } from "./SkillCards"
 
 class Skills extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       skills: true,
-    };
+    }
   }
 
   getSkills = (listObj) => {
-    return <SkillCards {...listObj} />;
-  };
+    return <SkillCards {...listObj} />
+  }
 
   displayList = (list) => {
-    return list.map((listObj) => this.getSkills(listObj));
-  };
+    return list.map((listObj) => this.getSkills(listObj))
+  }
 
   render() {
     return (
@@ -34,9 +34,11 @@ class Skills extends React.Component {
               onClick={() => {
                 this.setState({
                   skills: true,
-                });
+                })
               }}
-              style={{ marginRight: "10px" }}
+              style={{
+                marginRight: "10px",
+              }}
               className="skillButtons"
             >
               Languages
@@ -46,7 +48,7 @@ class Skills extends React.Component {
               onClick={() => {
                 this.setState({
                   skills: false,
-                });
+                })
               }}
               className="skillButtons"
             >
@@ -58,7 +60,7 @@ class Skills extends React.Component {
           {this.displayList(this.state.skills ? languages : technologies)}
         </Row>
       </Container>
-    );
+    )
   }
 }
-export default Skills;
+export default Skills

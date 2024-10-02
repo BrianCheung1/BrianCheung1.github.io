@@ -1,14 +1,47 @@
 .App {
   font-weight: 400;
   font-family: Lato;
-  background-color: #12171d;
+  background-color: #121212;
   color: white;
   overflow: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+}
+/* WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #121212; /* Dark background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a; /* Dark gray color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners of the scrollbar thumb */
+  border: 3px solid #2c2c2c; /* Same color as track to create space effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666; /* Lighter gray on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin; /* Thinner scrollbar */
+  scrollbar-color: #4a4a4a #121212; /* Thumb color, Track color */
+}
+
+/* Scrollbar Thumb Hover for Firefox */
+*::-webkit-scrollbar-thumb:hover {
+  scrollbar-color: #666 #121212;
 }
 
 #tsparticles {
@@ -19,7 +52,6 @@ html {
   padding: 0;
   left: 0;
   top: 0;
-  
 }
 
 .cover {
@@ -35,19 +67,16 @@ html {
   text-align: center;
   animation: slideinLeft 3s;
   margin-bottom: 10px;
-
 }
 
 .coverDescription {
   font-size: 25px;
   text-align: center;
   animation: slideinLeft 3s;
-
 }
 
 .coverPhoto {
   animation: slideinRight 3s;
-
 }
 
 .about {
@@ -64,8 +93,8 @@ html {
 
 .aboutDescription {
   font-size: 20px;
+  padding: 0px 150px 150px 150px;
 }
-
 
 .skills {
   font-size: 50px;
@@ -79,7 +108,9 @@ html {
 
 .skillButtons {
   text-align: center;
-
+  background-color: #b8ca88 !important;
+  border: 0 !important;
+  color: #000 !important;
 }
 
 .skillButtons:active {
@@ -94,13 +125,13 @@ html {
   padding-top: 30px;
 }
 
-
 .skillIcons {
   font-size: 50px;
-  transition: transform .75s;
+  transition: transform 0.75s;
   /* Animation */
   margin: 0 auto;
   margin-bottom: 10px;
+  color: #b8ca88;
 }
 
 .skillIcons:hover {
@@ -136,25 +167,30 @@ html {
   font-size: 50px;
   justify-content: center;
   margin-bottom: 50px;
+  
+}
+
+.contactButtons {
+  background-color: #b8ca88 !important;
+  border: 0 !important;
+  color: #000 !important;
 }
 
 .contactButtons:hover {
   transform: scale(1.25);
 }
 
-
 .cardTech {
   text-align: center;
   font-size: 20px;
 }
-
 
 .flip {
   height: 60px;
   overflow: hidden;
 }
 
-.flip>div>div {
+.flip > div > div {
   color: #0d6efd;
   padding: 5px 15px;
   height: 55px;
