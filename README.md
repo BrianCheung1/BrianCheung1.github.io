@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## Click <a href="https://briancheung1.github.io/Portfolio/" target="_blank">here</a> to see my website
+## Click <a href="https://briancheung.wiki" target="_blank">here</a> to see my website
 
 ## Features
 
