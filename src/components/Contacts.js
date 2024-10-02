@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {
   Container,
   Row,
@@ -7,43 +7,40 @@ import {
   Toast,
   Tooltip,
   OverlayTrigger,
-} from "react-bootstrap";
-import { AiFillLinkedin, AiOutlineGithub, AiFillMail } from "react-icons/ai";
+} from "react-bootstrap"
+import { AiFillLinkedin, AiOutlineGithub, AiFillMail } from "react-icons/ai"
 
 class Contacts extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       showA: false,
-    };
+    }
   }
   toggleShowA = () => {
     this.setState({
       showA: false,
-    });
-  };
+    })
+  }
   renderLinkedin = (props) => (
     <Tooltip id="button-tooltip" {...props}>
       Linkedin Profile
     </Tooltip>
-  );
+  )
   renderGithub = (props) => (
     <Tooltip id="button-tooltip" {...props}>
       Github Profile
     </Tooltip>
-  );
+  )
   renderEmail = (props) => (
     <Tooltip id="button-tooltip" {...props}>
       Email
     </Tooltip>
-  );
+  )
 
   render() {
     return (
-      <Container
-        fluid
-        id="contacts"
-      >
+      <Container fluid id="contacts">
         <Row className="contacts" lg={6}>
           <Col>
             <OverlayTrigger
@@ -85,12 +82,10 @@ class Contacts extends React.Component {
               <Button
                 size="lg"
                 onClick={() => {
-                  navigator.clipboard.writeText(
-                    "brian.cheung1@baruchmail.cuny.edu"
-                  );
+                  navigator.clipboard.writeText("briancheung0899@gmail.com")
                   this.setState({
                     showA: true,
-                  });
+                  })
                 }}
                 className="contactButtons"
               >
@@ -109,7 +104,7 @@ class Contacts extends React.Component {
           </Col>
         </Row>
       </Container>
-    );
+    )
   }
 }
-export default Contacts;
+export default Contacts
